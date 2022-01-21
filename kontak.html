@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <title>Kontak Jenis-Jenis Hewan</title>
+   <meta charset="UTF-8">
+  </head>
+  
+  <body>
+    <!-- menu website -->
+	<div>
+	  <a href="SALIM.HTML">Home</a>
+	  <a href="kontak.html">kontak</a>
+	</div>
+	
+   <!--bagian awal,isinya tag heading-->
+   <div>
+    <h1> kontak Jenis-Jenis Hewan</h1>
+	<h2> Mengenal Jenis-Jenis Hewan</h2>
+   </div>
+   
+	
+	<!-- membuat form-->
+  <form>
+    <fieldset>
+	  <legend>Nama dan pesan</legend>
+	  <label for="nama_user">Nama</label>
+	  <input type="text" placeholder="nama user"value="Nama Anda" id="nama_user">
+	  <br>
+	  <textarea cols="100" rows="7" id="pesan_user"> pesan saya adalah... </textarea> 
+	  <br>
+	</fieldset>
+	
+	<fieldset>
+	  <legend>Pilihan data</legend>
+	  <label>jenis</label><br>
+	  <input type="checkbox" name="jenis_user" value="0">herbivora <br>
+	  <input type="checkbox" name="jenis_user" value="1" checked>karnivora <br>
+	  <input type="checkbox" name="jenis_user" value="2">omnivora
+	  <br>
+	  <label>jenis ekosistem</label><br>
+	  <input type="radio" name="ekosistem" value="0" checked>darat <br>
+	  <input type="radio" name="ekosistem" value="1">air   <br>
+	  <br>
+	  <label>pelajaran</label>
+	  <select>
+	   <optgroup label="fronted">
+	    <option value="hewan">jenis-jenis hewan</option>
+		<option value="tumbuhan">jenis-jenis tumbuhan</option>
+	   </optgroup>
+	   
+	   <optgroup label="backend">
+		<option value="planet">macam-macam planet</option>
+		<option value="akar">macam-macam akar</option>
+	   </optgroup>
+	  </select>
+	</fieldset>  
+	  <br>
+	  <input type="submit" value="kirim data">
+	 </fieldset>
+	</form>
+	
+	<br></br>
+	<table border"1">
+	  <caption> daftar jenis-jenis hewan</caption>
+	  <tr>
+	    <th>Nama hewan</th>
+		<th>jenis hewan</th>
+	  </tr>
+
+	  <tr>
+	    <td>kambing</td>
+		<td>herbivora</td>
+	  </tr>
+	    <td>kelinci</td>
+		<td>herbivora</td>
+	  </tr>
+	</table>
+	
+	<!-- list pada html -->
+	<ul>
+	  <li>kambing</li>
+	  <li>kelinci</li>
+	</ul>
+	
+	<ol>
+	  <li>kambing</li>
+	  <li>kelinci</li>
+	</ol>
+	
+	<dl>
+	  <dt>kambing</dt>
+	  <dd>User pertama jenis-jenis hewan</dd>
+	  
+	  <dt>kelinci</dt>
+	  <dd>User kedua jenis-jenis hewan</dd>
+	</dl>
+	
+	<p>&copy;jenis-jenis hewan </p>
+	
+  </body>
+</html>
